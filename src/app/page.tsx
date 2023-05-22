@@ -14,9 +14,10 @@ export default function Home() {
           array={[1, 2, 3]}
           obj={{ foo: "foo", bar: "bar" }}
           boolean
-          code={<p className="my-3 text-center"><span>pages/index.js</span></p>}
           onClick={() => alert("クリック!")}
-          />
+          >
+          code={<p className="my-3 text-center"><span>pages/index.js</span></p>}
+        </Headline>
       </div>
     </main>
   )

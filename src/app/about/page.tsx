@@ -10,8 +10,9 @@ const About = () => {
       <div className="container">
         <Headline
           page="about"
+        >
           code={<p className="my-3 text-center"><span>pages/about.js</span></p>}
-        />
+        </Headline>
       </div>
     </main>
   )
