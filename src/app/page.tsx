@@ -13,7 +13,9 @@ export default function Home() {
           number={1111}
           array={[1, 2, 3]}
           obj={{ foo: "foo", bar: "bar" }}
-          boolean />
+          boolean
+          code={<p className="my-3 text-center"><span>pages/index.js</span></p>}
+          />
       </div>
     </main>
   )
