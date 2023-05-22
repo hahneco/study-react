@@ -1,4 +1,6 @@
 'use client'
+
+// import '../globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from '../styles/Home.module/css'
 

@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+// import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from '../styles/Home.module/css'
 
