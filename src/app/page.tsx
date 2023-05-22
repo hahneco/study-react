@@ -15,6 +15,7 @@ export default function Home() {
           obj={{ foo: "foo", bar: "bar" }}
           boolean
           code={<p className="my-3 text-center"><span>pages/index.js</span></p>}
+          onClick={() => alert("クリック!")}
           />
       </div>
     </main>

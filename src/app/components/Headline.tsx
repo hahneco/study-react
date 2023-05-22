@@ -15,6 +15,8 @@ export default function Headline(props) {
       <p className="my-3 text-primary text-center">Get started by editing{" "}</p>
       {/* <p className="my-3 text-center"><span>pages/{props.page}.js</span></p> */}
       {props.code}
+
+      <button onClick={props.onClick}>ボタン</button>
     </div>
   )
 }
