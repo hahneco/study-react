@@ -4,18 +4,18 @@ import styles from '../styles/Home.module/css'
 
 const About = () => {
   return (
-    <>
-      <style jsx>
-        {`
-          p {
-            text-align: center;
-            color: white;
-            font-size: 18pt;
-          }
-        `}
-      </style>
-      <p className="h5 bg-primary">Aboutページ</p>
-    </>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <style jsx>{`
+        h1 {
+          color: pink;
+        }
+      `}</style>
+      <div className="container">
+        <h1 className="h1 text-center">aboutページ</h1>
+        <p className="my-3 text-primary text-center">Get started by editing</p>
+        <p className="my-3 text-center"><small>pages/about.js</small></p>
+      </div>
+    </main>
   )
 }
 

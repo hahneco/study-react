@@ -8,11 +8,14 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <style jsx>{`
         h1 {
-          textAlign: center;
           color: pink;
         }
       `}</style>
-      <h1 className="h1">indexページ</h1>
+      <div className="container">
+        <h1 className="h1 text-center">indexページ</h1>
+        <p className="my-3 text-primary text-center">Get started by editing</p>
+        <p className="my-3 text-center"><small>pages/index.js</small></p>
+      </div>
     </main>
   )
 }
