@@ -1,7 +1,7 @@
 'use client'
 
 import 'bootstrap/dist/css/bootstrap.css'
-import Headline from '../components/Headline';
+import Headline from '../Headline';
 
 const Main = (props) => {
   return (
