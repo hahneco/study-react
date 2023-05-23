@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import 'bootstrap/dist/css/bootstrap.css'
+import '../../globals.css'
 
 const header = () => {
   return (
@@ -6,7 +8,7 @@ const header = () => {
       <nav className="p-2">
         <ul className="flex items-center space-x-2">
           <li>
-            <img src="/vercel.svg" className="w-32" />
+            <img src="/vercel.svg" className="h-6" />
           </li>
           <li>
             <Link href="/" >Home</Link>
